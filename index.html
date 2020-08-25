@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Looking to get that dream website and mobile app or even a business logo, look no further"/>
+		<meta name="keyword" content="website design mobile application design, graphic design"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!--Favicon-->
+		<link href="img/fav/favicon.ico" rel="shortcut icon" />
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+		
+		<!--stylesheets-->
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/jquery-ui.min.css">
+		
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body data-spy="scroll" data-target="#navbar-scroll">
+	<nav class="navbar navbar-fixed-top navbar-inverse" id="navbar-scroll">
+		<div class="container">
+			<div class="row">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="sr-only">Navigation Toggle</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">DonLini.io</a>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#top">Home</a></li>
+						<li><a href="#portfolio">works</a></li>
+						<li><a href="#ab">About</a></li>
+						<li><a href="#cont">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="cover" id="top">
+		<div class="cover-text">
+			<h1>Got a business idea you&rsquo;d like to see built?</h1>
+			<p id="tx">I'm the developer you need, i&rsquo;ll make those ideas of yours a reality.</p>
+			<p><a href="#portfolio" role="button" class="btn btn-success btn-lg" style="background: gray; border-color: gray;">Check my works</a></p>
+		</div>
+	</div>
+	
+	<section class="quote">
+		<div class="container">
+			<blockquote>
+				&ldquo;Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. 
+				Catch the trade winds in your sails. Explore. Dream. Discover.&rdquo;
+				<cite>&mdash; Mark Twain</cite>
+			</blockquote>
+			
+		</div>
+	</section>
+	<section id="services">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-lg-12 text-center" id="serv">
+					<h2 class="section-heading text-uppercase">Services</h2>	
+				</div>
+				<div class="col-sm-4">
+				<span><img src="icon/responsive-design-symbol.png"></span><h3>Responsive Website Development</h3>
+				<p>Get your websites made with complete responsiveness. Pretty on desktops, tablets and mobile phones </p>
+				</div>
+				<div class="col-sm-4">
+				<span><img src="icon/photoshop.png"></span><h3>Graphic Designs</h3>
+				<p>Fully scalable logos for any sort of business.</p>
+				</div>
+				<div class="col-sm-4">
+				<span><img src="icon/mobile-phone-design.png"></span><h3>Mobile Application Development</h3>
+				<p>Android applications made just for you.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="portfolio">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-lg-12" id="po">
+					<h2 class="section-heading text-uppercase">portfolio</h2>	
+				</div>
+				<div class="col-sm-4 wor">
+				<span><img src="img/work/logop.png" style="background:black;"></span><h3>Logo Design</h3>
+				<p></p>
+				</div>
+				<div class="col-sm-4 wor">
+				<span data-toggle="modal" data-target="#bo_display"><img src="img/work/bond.png" style="height:200px; width:300px;"></span><h3>Lorem Ipsum</h3>
+				<p></p>
+				<div class="modal fade" id="bo_display">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">
+									<span>&times;</span>
+								</button>
+								<h4 class="modal-title" style="font-weight:bold;">Dating Website</h4>
+							</div>
+							<div class="modal-body">
+								<div id="myCarousel" class="carousel slide" data-ride="carousel">
+							<!--indicators-->
+								<ol class="carousel-indicators">
+									<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+									<li data-target="#myCarousel" data-slide-to="1"></li>
+									<li data-target="#myCarousel" data-slide-to="2"></li>
+								</ol>
+								
+								<!--wrapper for the slides-->
+								<div class="carousel-inner" role="list-box">
+									<div class="item active">
+										<img src="img/work/bond.png">
+										<div class="carousel-caption">
+										</div>
+									</div>
+									
+									<div class="item">
+										<img src="img/work/bond1.png">
+										<div class="carousel-caption">
+										</div>
+									</div>
+									
+									<div class="item">
+										<img src="img/work/bond2.png">
+										<div class="carousel-caption">
+										</div>
+									</div>
+							
+									</div>
+				
+									<!--controls-->
+									<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right"></span>
+										<span class="sr-only">Next</span>
+									</a>
+									
+								</div>
+							</div>
+							<div class="modal-footer"></div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="col-sm-4 wor">
+				<span data-toggle="modal" data-target="#iy_display"><img src="img/work/iy.png" style="height:200px; width:300px;"></span><h3>lorem ipsum</h3>
+				<p></p>
+				<div class="modal fade" id="iy_display">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">
+									<span>&times;</span>
+								</button>
+								<h4 class="modal-title" style="font-weight:bold;">Transportation Website</h4>
+							</div>
+							<div class="modal-body">
+								<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+							<!--indicators-->
+								<ol class="carousel-indicators">
+									<li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+									<li data-target="#myCarousel2" data-slide-to="1"></li>
+									<li data-target="#myCarousel2" data-slide-to="2"></li>
+									<li data-target="#myCarousel2" data-slide-to="3"></li>
+									<li data-target="#myCarousel2" data-slide-to="4"></li>
+								</ol>
+								
+								<!--wrapper for the slides-->
+								<div class="carousel-inner" role="list-box">
+									<div class="item active">
+										<img src="img/work/iy.png">
+										<div class="carousel-caption">
+										</div>
+									</div>
+									
+									<div class="item">
+										<img src="img/work/capture.png">
+										<div class="carousel-caption">
+										</div>
+									</div>
+									
+									<div class="item">
+										<img src="img/work/capture2.png">
+										<div class="carousel-caption">
+										</div>
+									</div>
+									<div class="item">
+										<img src="img/work/capture3.png">
+										<div class="carousel-caption">
+										</div>
+									</div>
+									<div class="item">
+										<img src="img/work/capture4.png">
+										<div class="carousel-caption">
+										</div>
+										</div>
+									</div>
+				
+									<!--controls-->
+									<a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right"></span>
+										<span class="sr-only">Next</span>
+									</a>
+									
+								</div>
+							</div>
+							<div class="modal-footer"></div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="about" id="ab">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="img/linil.jpg" alt="my face" class="img-circle" style="width:250px; height:300px;">
+					<h3 style="font-family:georgia, Times, serif;">Prince Alfred</h3>
+					<p style="font-family:georgia, Times, serif;">Fullstack Developer</p>
+				</div>
+				<div class="col-sm-8" id="ab">
+				<h2>About me</h2>
+				<p>i&rsquo;m a computer science graduate recently turned freelancer, my passion for web, mobile and 
+				graphic design was discovered while i was at school. Done with school, i&rsquo;m free to
+				do what i love and make a living while i&rsquo;m at it.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact" id="cont">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading text-uppercase">Contact me</h2>	
+				</div>
+				<form class="col-sm-6 col-sm-offset-3" action="validate.php" method="post">
+						<div class="form-group">
+							<input type="text" name="name" class="form-control" placeholder="Enter Name..">
+							<?php echo $nameError; ?>
+						</div>
+						<div class="form-group">
+							<input type="email" name="email" class="form-control" placeholder="Enter Email">
+						</div>
+						<div class="form-group">
+							<input type="phone" name="phone" class="form-control" placeholder="Enter Phone no..">
+						</div>
+						<div class="form-group">
+							<textarea name="request" class="form-control" rows="4" placeholder="Job Offer"></textarea>
+						</div>
+						
+						<button class="btn btn-success btn-lg pull-right" id="btn" name="submit">send</button>
+					
+						<!--div class="form-group">
+							<input type="submit" id="sub" class="form-control btn btn-danger" role="button">
+						</div-->
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer class="text-center">
+		2019 © DonLini.io All Rights Reserved.
+	</footer>
+	
+	
+		<!--javascripts-->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

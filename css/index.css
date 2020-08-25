@@ -1,0 +1,120 @@
+html, body{
+	height:100%;
+	
+}
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Roboto Slab', serif;
+}
+.cover{
+	height:100%;
+}
+.cover{
+	background: url('../img/emile-perron-190221-unsplash.jpg') top left no-repeat;
+	background-size: cover;
+	display:table;
+	width:100%;
+	padding: 0 20%;
+	box-shadow: inset 0 0 100px #000;
+}
+.cover-text{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+.cover-text h1{
+	font-weight: bold;
+}
+#tx{
+	font-size: 20px;
+	margin-top:40px;
+}
+nav.navbar-inverse{
+	opacity: 0.7;
+	
+}
+li a{
+	color: white !important;
+}
+
+.quote{
+	background: #222;
+}
+blockquote{
+	border: none;
+	margin: 0;
+	font-family: georgia, Times. serif;
+	color: white;
+	font-style: italic;
+	font-size: 32px;
+}
+cite{
+	display: block;
+	font-style: normal;
+	font-family: helvetica;
+	text-align: right;
+	margin-top: 20px;
+	font-weight:bold;
+	color: #888;
+}
+section{
+	padding: 100px;
+}
+.wor{
+	box-sizing: border-box;
+	box-shadow: 5px 5px 10px #888;
+	border-radius: 10px;
+	
+}
+#portfolio h2{
+	font-weight:bold;
+}
+
+
+.wor:hover{
+	cursor: pointer;
+}
+#serv{
+	margin-bottom:50px;
+}
+#serv h2{
+	font-weight: bold;
+}
+#po{
+	margin-bottom:50px;
+}
+#ab{
+	background: #222;
+	color: white;
+}
+footer{
+	background:#222;
+	color: white;
+	padding:20px;
+	font-family: georgia, Times, serif;
+}
+#ab p{
+	padding: 0 15%;
+	text-align: center;
+}
+#btn{
+	width: 100px;
+}
+
+
+/*media query*/
+@media only screen and (max-width: 568px){
+	.cover-text h1{
+		font-size: 30px;
+	}
+	.cover-text h1 p{
+		font-size: 20px;
+	}
+	section{
+		padding: 20px;
+	}
+}
